@@ -1,0 +1,59 @@
+.Home {
+    display: flex;
+    margin-top: 5rem;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+.slider {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 4.6rem;
+    bottom: 6rem;
+    gap: 0.7rem;
+}
+
+.slider button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+}
+
+.pimpochcha {
+    display: flex;
+    gap: 0.3rem;
+}
+
+.slider div {
+
+    border: 1px solid rgb(188, 188, 188);
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+}
+
+.pimp {
+    background-color: white;
+}
+
+.no-pimp {
+    background-color: transparent;
+}
