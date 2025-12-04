@@ -1,0 +1,200 @@
+.information-aboutas {
+    width: 100%;
+    height: fit-content;
+    color: white;
+    border-bottom: 1px solid #FFFFFF;
+    background-color: black;
+}
+
+.aboutas {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+
+.About-EUROCARS {
+    height: fit-content;
+    width: 50%;
+
+}
+
+.About-EUROCARS h1 {
+    font-size: 3.7rem;
+    padding: 0 0 2rem 5rem;
+}
+
+.About-EUROCARS h2 {
+    font-size: 1.3rem;
+    padding: 0 0 2rem 5rem;
+    color: #979797;
+}
+
+/* ------------------------------ */
+
+.aboutas-points {
+    height: fit-content;
+}
+
+.point {
+    padding: 0 0 5rem 5rem;
+    display: flex;
+    height: fit-content;
+}
+
+.badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4, 3rem;
+}
+
+.badge div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.1rem;
+    height: 3.1rem;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.badge div div {
+    width: 1rem;
+    height: 1rem;
+    background-color: black;
+}
+
+.point-text {
+    width: 90%;
+    display: grid;
+}
+
+.point h1 {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 3rem;
+    font-size: 1.7rem;
+}
+
+.point h2 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 0 0 0 3rem;
+    font-size: 1rem;
+    bottom: 1rem;
+}
+
+.points-button {
+    width: fit-content;
+    height: fit-content;
+    padding: 0 0 0 5rem;
+}
+
+.points-button button {
+    width: 13rem;
+    height: 3.3rem;
+    border-radius: 0.7rem;
+    font-size: 1.1rem;
+
+}
+
+
+
+/* -------------------------------- */
+.aboutass-img {
+    display: flex;
+
+    align-items: center;
+    height: 65rem;
+    width: 50%;
+}
+
+.aboutass-img-contayner {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 2rem;
+}
+
+.img {
+    border-radius: 1rem;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/12;
+    background-image: url("../../../public/contactsImg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.aboutass-line {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.lines {
+    width: 90%;
+    height: 0.15rem;
+    background-color: #979797;
+    border-radius: 1rem;
+}
+
+/* -------------------------------- */
+
+.eurocar-possibilities {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+}
+
+.eurocar-possibilities-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    padding: 3rem 3rem;
+    gap: 9%;
+}
+
+.eurocar-possibilities-cards {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 10rem;
+    height: fit-content;
+
+}
+
+.cards-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 0.5rem;
+    width: 6.2rem;
+    height: 6.2rem;
+    border-radius: 1rem;
+    background-color: #6B6B6B;
+    border: 1px solid #B5B5B5;
+}
+
+.eurocar-possibilities-cards h1 {
+    font-weight: 600;
+    font-size: 2.2rem;
+}
+
+.eurocar-possibilities-cards h2 {
+    font-size: 1rem;
+}
