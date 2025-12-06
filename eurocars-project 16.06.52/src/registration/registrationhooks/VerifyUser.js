@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:4000";
+const BASE_URL = "https://eurocars-backend.onrender.com";
+
 
 export const handleRegister = async (form) => {
     try {
