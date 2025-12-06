@@ -1,0 +1,10 @@
+body {
+  display: flex;
+
+  justify-content: center;
+  background-color: black;
+  width: 100vw;
+  height: fit-content;
+  position: relative;
+  margin: 0;
+}
